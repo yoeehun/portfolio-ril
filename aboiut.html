@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Olaco - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0a0a0a;
+            color: #f8f8f8;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <nav class="fixed w-full bg-black bg-opacity-90 z-50 py-4 px-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">LACSY</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#work" class="hover:text-amber-400 transition">Projects</a>
+                <a href="#about" class="hover:text-amber-400 transition">About</a>
+                <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+            </div>
+            <button class="md:hidden text-white">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 py-20">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3">
+                    <img src="486748292_2918594634977330_1147439076236217389_n.jpg" alt="Mark Aidel Ray Olaco" class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-amber-400">
+                </div>
+                <div class="md:w-2/3">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-6">Mark Aidel Ray Olaco</h1>
+                    <h2 class="text-2xl md:text-3xl text-amber-400 mb-8">Student, Designer & Developer</h2>
+                    <p class="text-lg mb-10 opacity-80">I build engaging digital experiences that combine beautiful design and solid performance..</p>
+                    <a href="#work" class="inline-block bg-amber-500 hover:bg-amber-600 text-black font-bold py-3 px-8 rounded-full transition">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="py-20 bg-black bg-opacity-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12">Pojects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="4021ca31-4d64-45fc-8520-0ef9be043313.png" alt="Project 1" class="w-full h-64 object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-center p-6">
+                            <h3 class="text-2xl font-bold mb-2">Web Development</h3>
+                            <p class="mb-4">Alternative eco friendly Social Media, to engage with friends.</p>
+                            <a href="#" class="inline-block border border-white hover:bg-white hover:text-black py-2 px-6 rounded-full transition">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+                    <p class="mb-6 opacity-80">I'm a hardworking, intelligent, adaptive. I am committed to continuous learning and am excited to contribute my skills to your team.</p>
+                    <p class="opacity-80">My approach combines aesthetic sensibility with technical expertise to deliver solutions that are both beautiful and functional.</p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-amber-400 bg-opacity-10 p-8 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4">Skills & Tools</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="bg-amber-400 bg-opacity-20 text-amber-400 py-2 px-4 rounded-full">UI/UX Design</span>
+                            <span class="bg-amber-400 bg-opacity-20 text-amber-400 py-2 px-4 rounded-full">Figma</span>
+                            <span class="bg-amber-400 bg-opacity-20 text-amber-400 py-2 px-4 rounded-full">HTML/CSS</span>
+                            <span class="bg-amber-400 bg-opacity-20 text-amber-400 py-2 px-4 rounded-full">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-black bg-opacity-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center">Get In Touch</h2>
+            <form class="max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block mb-2">Name</label>
+                        <input type="text" id="name" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 focus:outline-none focus:ring-2 focus:ring-amber-400">
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2">Email</label>
+                        <input type="email" id="email" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 focus:outline-none focus:ring-2 focus:ring-amber-400">
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block mb-2">Message</label>
+                    <textarea id="message" rows="5" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
+                </div>
+                <button type="submit" class="bg-amber-500 hover:bg-amber-600 text-black font-bold py-3 px-8 rounded-full transition w-full md:w-auto">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="mb-4 md:mb-0 opacity-70">All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="https://www.linkedin.com/in/markaidel-olaco-4561812ba/" target="_blank" class="hover:text-amber-400 transition">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a href="#" class="hover:text-amber-400 transition">
+                        <i class="fab fa-dribbble text-xl"></i>
+                    </a>
+                    <a href="https://github.com/lacsyy" target="_blank" class="hover:text-amber-400 transition">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('button');
+        const navMenu = document.querySelector('.hidden');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
